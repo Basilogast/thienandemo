@@ -10,13 +10,13 @@ import "../about.css";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import slide_image_2 from "../assets/img/aboutImg/img_1.jpg";
-import slide_image_1 from "../assets/img/aboutImg/img_2.jpg";
-import slide_image_3 from "../assets/img/aboutImg/img_3.jpg";
-import slide_image_4 from "../assets/img/aboutImg/img_4.jpg";
-import slide_image_5 from "../assets/img/aboutImg/img_5.jpg";
-import slide_image_6 from "../assets/img/ruou2.jpg";
-import slide_image_7 from "../assets/img/ruou3.jpg";
+import slide_image_2 from "../assets/img/demo/23.png";
+import slide_image_1 from "../assets/img/demo/24.png";
+import slide_image_3 from "../assets/img/demo/25.png";
+import slide_image_4 from "../assets/img/demo/26.png";
+import slide_image_5 from "../assets/img/demo/27.png";
+import slide_image_6 from "../assets/img/demo/28.png";
+import slide_image_7 from "../assets/img/demo/29.png";
 
 import arrowright from "../assets/img/arrowright.png";
 import arrowleft from "../assets/img/arrowleft.png";

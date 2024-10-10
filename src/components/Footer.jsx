@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import star from "../assets/img/starinhand.png";
-import hero from "../assets/img/ruou1.jpg";
+import hero from "../assets/img/demo/30.png";
 import location from "../assets/img/location.svg";
 import mail from "../assets/img/mail.svg";
 import phone from "../assets/img/phone.svg";

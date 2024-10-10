@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import heroImg from "../assets/img/ruou1.jpg";
+import heroImg from "../assets/img/demo/22.png";
 
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
