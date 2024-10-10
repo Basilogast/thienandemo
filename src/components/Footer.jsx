@@ -85,7 +85,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="email-wrapper">annguyen20112003@gmail.com</p>
+                  <p className="email-wrapper">thienandemo@gmail.com</p>
                 </div>
               </div>
               <div className="d-flex" style={{ margin: "10px 0" }}>
@@ -94,7 +94,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p>0902784042</p>
+                  <p>0123456789</p>
                 </div>
               </div>
 
