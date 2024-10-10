@@ -49,7 +49,7 @@ export const Pitching = ({ pitchCards, signedInUser }) => {
         {/* Display "Add Pitch" button only when user is signed in */}
         {signedInUser && (
           <div style={styles.buttonContainer}>
-            <Link to="/NguyenDoThienAn/add-pitches">
+            <Link to="/thienandemo/add-pitches">
               <Button
                 style={{
                   ...styles.buttonStyle,

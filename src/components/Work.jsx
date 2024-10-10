@@ -63,7 +63,7 @@ export const Work = ({ workCards, signedInUser }) => {
         {/* Display "Add Work" button only when user is signed in */}
         {signedInUser && (
           <div style={styles.buttonContainer}>
-            <Link to="/NguyenDoThienAn/add-work">
+            <Link to="/thienandemo/add-work">
               <Button
                 style={{
                   ...styles.buttonStyle,
@@ -126,7 +126,7 @@ export const Work = ({ workCards, signedInUser }) => {
               "+ Take responsibility for every phase and every task of the campaign",
               "+ Catch up job progress and address any issues of the team to solve and give directions",
             ]}
-            detailsRoute="/NguyenDoThienAn/HanhPhucInternational"
+            detailsRoute="/thienandemo/HanhPhucInternational"
             signedInUser={signedInUser} // Pass signedInUser to WorkCard
           />
           <WorkCard
@@ -143,7 +143,7 @@ export const Work = ({ workCards, signedInUser }) => {
               "+ Work and deal with PR outlets to run 4 articles to promote MX Hong Kong mooncakes",
               "+ Order, brief internal team and quality control for social media posts",
             ]}
-            detailsRoute="/NguyenDoThienAn/HONGKONGMooncake"
+            detailsRoute="/thienandemo/HONGKONGMooncake"
             signedInUser={signedInUser} // Pass signedInUser to WorkCard
           />
           <WorkCard
@@ -175,7 +175,7 @@ export const Work = ({ workCards, signedInUser }) => {
               "+ Take responsibility for every phase and every task of the campaign",
               "+ Catch up job progress and address any issues of the team to solve and give directions",
             ]}
-            detailsRoute="/NguyenDoThienAn/DrOTEKER"
+            detailsRoute="/thienandemo/DrOTEKER"
             signedInUser={signedInUser} // Pass signedInUser to WorkCard
           />
           <WorkCard
@@ -210,7 +210,7 @@ export const Work = ({ workCards, signedInUser }) => {
               "+ Work and deal with PR outlets to run 4 articles to promote MX Hong Kong mooncakes",
               "+ Order, brief internal team and quality control for social media posts",
             ]}
-            detailsRoute="/NguyenDoThienAn/HONGKONGMooncake"
+            detailsRoute="/thienandemo/HONGKONGMooncake"
             signedInUser={signedInUser} // Pass signedInUser to WorkCard
           />
         </div>

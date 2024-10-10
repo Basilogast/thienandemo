@@ -114,7 +114,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/NguyenDoThienAn/"
+          path="/thienandemo/"
           element={
             <div className="App">
               <NavBar />
@@ -150,7 +150,7 @@ function App() {
         />
 
         <Route
-          path="/NguyenDoThienAn/HONGKONGMooncake"
+          path="/thienandemo/HONGKONGMooncake"
           element={
             <div className="App">
               <HONGKONG />
@@ -160,7 +160,7 @@ function App() {
         />
 
         <Route
-          path="/NguyenDoThienAn/HanhPhucInternational"
+          path="/thienandemo/HanhPhucInternational"
           element={
             <div className="App">
               <HP />
@@ -170,7 +170,7 @@ function App() {
         />
 
         <Route
-          path="/NguyenDoThienAn/DrOTEKER"
+          path="/thienandemo/DrOTEKER"
           element={
             <div className="App">
               <OTEKER />
@@ -182,7 +182,7 @@ function App() {
         {/* Add Work Route - Only allow access if signed in and email is in allowedEmails */}
         {signedInUser && allowedEmails.includes(signedInUser.email) && (
           <Route
-            path="/NguyenDoThienAn/add-work"
+            path="/thienandemo/add-work"
             element={
               <div className="App">
                 <AddWorkCard
@@ -198,7 +198,7 @@ function App() {
         )}
         {signedInUser && allowedEmails.includes(signedInUser.email) && (
           <Route
-            path="/NguyenDoThienAn/add-pitches"
+            path="/thienandemo/add-pitches"
             element={
               <div className="App">
                 <AddWorkCard
@@ -214,7 +214,7 @@ function App() {
         )}
         {signedInUser && allowedEmails.includes(signedInUser.email) && (
           <Route
-            path="/NguyenDoThienAn/add-competition"
+            path="/thienandemo/add-competition"
             element={
               <div className="App">
                 <AddWorkCard
@@ -230,7 +230,7 @@ function App() {
         )}
         {signedInUser && allowedEmails.includes(signedInUser.email) && (
           <Route
-            path="/NguyenDoThienAn/edit-work/:table/:id" // Include :table as a route parameter
+            path="/thienandemo/edit-work/:table/:id" // Include :table as a route parameter
             element={
               <div className="App">
                 <EditWorkCard />
